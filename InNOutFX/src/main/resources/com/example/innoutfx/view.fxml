@@ -21,7 +21,7 @@
                 <Font name="Comic Sans" size="50.0" />
             </font>
         </Label>
-        <Label fx:id="titleLabel2" text="(nai nit de Joint...)" style="-fx-padding: 35 0 0 15;">
+        <Label fx:id="titleLabel2" text="The best burgers" style="-fx-padding: 35 0 0 15;">
             <font>
                 <Font name="Comic Sans" size="15.0" />
             </font>
