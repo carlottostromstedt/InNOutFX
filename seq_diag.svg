@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 1024 889" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024px" height="889px">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc>seqdiag {
+  InNOutApplication  -&gt; view [label = "stage.setScene(scene)"];
+view  -&gt; InNOutController [label = "Initialise"];
+InNOutController -&gt; BeefBurger [label = "creates new Burger"];
+InNOutController &lt;- BeefBurger; 
+  view &lt;- InNOutController [label = ""];
+  view  -&gt; InNOutController [label = "Beef burger button click"];
+  view &lt;- InNOutController [label = "Bun &amp; patty visible"];
+view -&gt; InNOutController [label = "cheese button click"];
+InNOutController -&gt; Cheese [label="Initialise and decorate"];
+InNOutController &lt;- Cheese [label=""];
+view &lt;- InNOutController [label="Cheese visible"];
+InNOutApplication &lt;- view [label = "closing application"];
+}</desc>
+  <rect fill="rgb(0,0,0)" height="724" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="127" y="143" />
+  <rect fill="rgb(0,0,0)" height="678" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="319" y="143" />
+  <rect fill="rgb(0,0,0)" height="167" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="511" y="208" />
+  <rect fill="rgb(0,0,0)" height="67" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="511" y="442" />
+  <rect fill="rgb(0,0,0)" height="180" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="511" y="574" />
+  <rect fill="rgb(0,0,0)" height="50" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="703" y="275" />
+  <rect fill="rgb(0,0,0)" height="50" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="8" x="895" y="639" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="259" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="643" y="46" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="835" y="46" />
+  <path d="M 128 80 L 128 877" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="724" stroke="rgb(0,0,0)" width="8" x="124" y="137" />
+  <path d="M 320 80 L 320 877" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="678" stroke="rgb(0,0,0)" width="8" x="316" y="137" />
+  <path d="M 512 80 L 512 877" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="167" stroke="rgb(0,0,0)" width="8" x="508" y="202" />
+  <rect fill="moccasin" height="67" stroke="rgb(0,0,0)" width="8" x="508" y="436" />
+  <rect fill="moccasin" height="180" stroke="rgb(0,0,0)" width="8" x="508" y="568" />
+  <path d="M 704 80 L 704 877" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="50" stroke="rgb(0,0,0)" width="8" x="700" y="269" />
+  <path d="M 896 80 L 896 877" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="8 4" />
+  <rect fill="moccasin" height="50" stroke="rgb(0,0,0)" width="8" x="892" y="633" />
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="106" x="128.0" y="67">InNOutApplication</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="256" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="28" x="320.0" y="66">view</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="100" x="512.0" y="66">InNOutController</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="640" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="66" x="704.0" y="67">BeefBurger</text>
+  <rect fill="rgb(255,255,255)" height="40" stroke="rgb(0,0,0)" width="128" x="832" y="40" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="42" x="896.0" y="66">Cheese</text>
+  <path d="M 136 137 L 312 137" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="304,133 312,137 304,141" stroke="rgb(0,0,0)" />
+  <path d="M 328 202 L 504 202" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,198 504,202 496,206" stroke="rgb(0,0,0)" />
+  <path d="M 520 269 L 696 269" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="688,265 696,269 688,273" stroke="rgb(0,0,0)" />
+  <path d="M 520 319 L 696 319" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="528,315 520,319 528,323" stroke="rgb(0,0,0)" />
+  <path d="M 328 369 L 504 369" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="336,365 328,369 336,373" stroke="rgb(0,0,0)" />
+  <path d="M 328 436 L 504 436" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,432 504,436 496,440" stroke="rgb(0,0,0)" />
+  <path d="M 328 503 L 504 503" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="336,499 328,503 336,507" stroke="rgb(0,0,0)" />
+  <path d="M 328 568 L 504 568" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="496,564 504,568 496,572" stroke="rgb(0,0,0)" />
+  <path d="M 520 633 L 888 633" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="880,629 888,633 880,637" stroke="rgb(0,0,0)" />
+  <path d="M 520 683 L 888 683" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="528,679 520,683 528,687" stroke="rgb(0,0,0)" />
+  <path d="M 328 748 L 504 748" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="336,744 328,748 336,752" stroke="rgb(0,0,0)" />
+  <path d="M 136 815 L 312 815" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="144,811 136,815 144,819" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="128" x="208.0" y="133">stage.setScene(scene)</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="51" x="361.5" y="198">Initialise</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="113" x="584.5" y="265">creates new Burger</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="139" x="405.5" y="432">Beef burger button click</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="110" x="445.0" y="499">Bun &amp; patty visible</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="111" x="391.5" y="564">cheese button click</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="130" x="593.0" y="629">Initialise and decorate</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="84" x="458.0" y="744">Cheese visible</text>
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="109" x="253.5" y="811">closing application</text>
+</svg>
